@@ -23,3 +23,11 @@
 
 
 ## Bài tập 5
+- Thành phần 
+  - [HomeScreen.js](./app/tab/HomeScreen.js)
+
+- Màn hình HomeScreen <br>  
+    <img src="./img/b5home.png">
+
+- Màn hình ScanScreen <br>
+    <img src="./img/b5scan.png">

@@ -22,8 +22,8 @@ const MyTabs = () => {
 			<Tab.Screen name="Scan" component={ScanScreen} options={{
 				tabBarIcon: ({ color, size }) => (
 					<FontAwesomeIcon icon={faQrcode} color={color} size={size} />
-				)
-
+				),
+				tabBarStyle: { display: 'none' }
 			}} />
 			<Tab.Screen name="Account" component={AccountScreen} options={{
 				tabBarIcon: ({ color, size }) => (
