@@ -5,12 +5,15 @@ import AccountScreen from './AccountScreen';
 import ScanScreen from './ScanScreen';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faCircleUser, faHome, faQrcode } from '@fortawesome/free-solid-svg-icons';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
+const Tab = createBottomTabNavigator();
 
-
-const MyTabs = ({Tab}) => {
+const MyTabs = () => {
 	return (
-		<Tab.Navigator>
+		<Tab.Navigator screenOptions={{
+			headerShown: false,
+		}}>
 			<Tab.Screen name="Home" component={HomeScreen} options={{
 				tabBarIcon: ({ color, size }) => (
 					<FontAwesomeIcon icon={faHome} color={color} size={size} />
