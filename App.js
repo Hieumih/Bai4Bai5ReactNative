@@ -4,8 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
 
-// import MyStack from './app/stack';
-import MyTabs from './app/tab';
+import MyStack from './app/stack';
+// import MyTabs from './app/tab';
 
 
 
@@ -14,7 +14,7 @@ import MyTabs from './app/tab';
 export default function App() {
   return (
     <NavigationContainer>
-      <MyTabs/>
+      <MyStack/>
     </NavigationContainer>
 
   );
