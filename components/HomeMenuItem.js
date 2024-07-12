@@ -49,5 +49,6 @@ const style = StyleSheet.create({
     title: {
         fontSize: 20,
         fontWeight: 'heavy',
+        
     }
 })
