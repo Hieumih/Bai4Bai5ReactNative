@@ -1,15 +1,24 @@
 ﻿import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import HomeScreen from '../tab/HomeScreen';
-import AccountScreen from '../tab/AccountScreen';
 
+import MyTabs from '../tab/index';
 
+import LoginScreen from './LoginScreen';
+import InfoScreen from './InfoScrren';
 
-function MyStack({Stack}) {
+const Stack = createNativeStackNavigator();
+
+function MyStack() {
   return (
-    <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Account" component={AccountScreen} />
+    <Stack.Navigator screenOptions={{
+      headerShown: false,
+      contentStyle: {
+        backgroundColor: 'white'
+      }
+    }}>
+      <Stack.Screen name="Info" component={InfoScreen} />
+      <Stack.Screen name="Login" component={LoginScreen} />
+      <Stack.Screen name="Logined" component={MyTabs} />
 
     </Stack.Navigator>
   );
