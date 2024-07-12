@@ -1,5 +1,5 @@
 ﻿# Giới thiệu
-- Bài tập 4 + 5 react-native
+- Bài tập 4 + 5 + 6 react-native
 
 # Lưu ý
 - Sau khi `git clone` thì phải cài hết package `npm i`
@@ -32,3 +32,12 @@
 
 - Màn hình ScanScreen <br>
     <img src="./img/b5scan.png">
+
+
+## Bài tập 6
+- Thành phần 
+  [InfoScrren.js](./app/stack/InfoScrren.js)
+- Preview: <br>
+    <img src="./img/InfoScrren_1.png">
+    <img src="./img/InfoScrren_2.png">
+    <img src="./img/InfoScrren_3.png">
