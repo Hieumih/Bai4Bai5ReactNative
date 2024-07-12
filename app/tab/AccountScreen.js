@@ -61,6 +61,7 @@ const AccountScreen = ({ navigation }) => {
             <Button title="Đăng xuất" onPress={() => {
                 AsyncStorage.removeItem('phoneNum').then(() => {
                     setPhonenum('');
+                    navigation.navigate('Login');
                 });
             }} />
         </View>;
