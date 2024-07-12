@@ -1,4 +1,5 @@
 ﻿# Giới thiệu
+- Bài tập  bởi Nguyễn Minh Hiếu bit220056
 - Bài tập 4 + 5 + 6 react-native
 
 # Lưu ý
